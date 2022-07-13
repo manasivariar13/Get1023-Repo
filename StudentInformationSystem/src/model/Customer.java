@@ -5,6 +5,7 @@ public class Customer {
 	int customerId;
 	String customerName;
 	int customerAge;
+	String customerAddress;
 	
 	public int getCustomerId() {
 		return customerId;
@@ -19,11 +20,16 @@ public class Customer {
 		this.customerName = customerName;
 	}
 	public String getCustomerAge() {
-		return customerName;
+		return customerAge;
 	}
 	public void setCustomerAge(int customerAge) {
-		this.customerName = customerName;
+		this.customerAge = customerAge;
 	}
+	public String getCustomerAddress() {
+		return customerAddress;
+	}
+	public void setCustomerAddress(String customerAddress) {
+		this.customerAddress = customerAddress;
 	
 
 }
